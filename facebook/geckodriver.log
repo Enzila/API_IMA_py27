@@ -1,0 +1,544 @@
+1575875315125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUTq8d2"
+*** You are running in headless mode.
+1575875322030	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575875322031	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575875322032	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575875322033	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575875331452	Marionette	INFO	Listening on port 36383
+1575875331908	Marionette	WARN	TLS certificate errors will be ignored for this session
+1575875384305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0WRaD4"
+*** You are running in headless mode.
+1575875385007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575875385007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575875385007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575875385007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575875388246	Marionette	INFO	Listening on port 36015
+1575875388323	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7571, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1575875764272	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileq2Awh3"
+*** You are running in headless mode.
+1575875765566	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575875765567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575875765567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575875765567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575875768777	Marionette	INFO	Listening on port 36397
+1575875768799	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7986, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1575875797650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLrRSSd"
+*** You are running in headless mode.
+1575875798603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575875798603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575875798603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575875798603	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575875801779	Marionette	INFO	Listening on port 40915
+1575875801873	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+[Child 8229, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+1575875836453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3NKeIv"
+*** You are running in headless mode.
+1575875837084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575875837084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575875837084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575875837084	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575875840302	Marionette	INFO	Listening on port 33093
+1575875840367	Marionette	WARN	TLS certificate errors will be ignored for this session
+1575875862316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHiUlwY"
+*** You are running in headless mode.
+1575875862978	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575875862978	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575875862978	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575875862979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575875865862	Marionette	INFO	Listening on port 36251
+1575875865932	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1575875995737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile97JCuG"
+*** You are running in headless mode.
+1575875997517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575875997517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575875997518	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575875997518	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876001423	Marionette	INFO	Listening on port 33001
+1575876001460	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1575876007590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejj1MVu"
+*** You are running in headless mode.
+1575876008254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876008254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876008254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876008254	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876011120	Marionette	INFO	Listening on port 35053
+1575876011209	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9078, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1575876200736	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCHuSOI"
+*** You are running in headless mode.
+1575876202331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876202331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876202331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876202331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876206151	Marionette	INFO	Listening on port 33761
+1575876206162	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9364, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+1575876250081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNxfoQk"
+*** You are running in headless mode.
+1575876250678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876250678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876250679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876250679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876253609	Marionette	INFO	Listening on port 45431
+1575876253701	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+[Child 9563, Chrome_ChildThread] WARNING: pipe error (29): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[Child 9563, Chrome_ChildThread] WARNING: pipe error (37): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 9563, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+1575876307590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9uJq4u"
+*** You are running in headless mode.
+1575876308223	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876308223	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876308224	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876308224	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876311088	Marionette	INFO	Listening on port 38433
+1575876311110	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1575876347540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZYWWU8"
+*** You are running in headless mode.
+1575876348195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876348195	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876348196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876348196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876351178	Marionette	INFO	Listening on port 46499
+1575876351261	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9970, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1575876393222	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecevGOq"
+*** You are running in headless mode.
+1575876393847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876393847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876393847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876393847	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876396857	Marionette	INFO	Listening on port 37613
+1575876396940	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+[Child 10204, Chrome_ChildThread] WARNING: pipe error (29): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 10204, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10180, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1575876423381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWgpBHU"
+*** You are running in headless mode.
+1575876424174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876424175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876424175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876424175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876426985	Marionette	INFO	Listening on port 32905
+1575876426995	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1575876451296	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileR19PIa"
+*** You are running in headless mode.
+1575876451975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876451976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876451976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876451976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876454973	Marionette	INFO	Listening on port 37203
+1575876455013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 10551, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-clezVp/firefox-70.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+1575876495903	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYAwIiw"
+*** You are running in headless mode.
+1575876496874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876496874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876496874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876496874	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876499822	Marionette	INFO	Listening on port 35073
+1575876499921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+1575876586085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQnn9QB"
+*** You are running in headless mode.
+1575876587364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575876587364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575876587364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575876587364	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575876590885	Marionette	INFO	Listening on port 35517
+1575876590908	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+1575877783597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevVRE46"
+*** You are running in headless mode.
+1575877785535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575877785536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575877785536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575877785536	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575877789067	Marionette	INFO	Listening on port 41181
+1575877789116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1575878915474	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesIs0IZ"
+*** You are running in headless mode.
+1575878918182	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575878918183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575878918183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575878918183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575878922678	Marionette	INFO	Listening on port 37191
+1575878922700	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1575878983668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejak1eN"
+*** You are running in headless mode.
+1575878984323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575878984323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575878984323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575878984323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+Exiting due to channel error.
+Exiting due to channel error.
+1575878995177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOVwUYR"
+*** You are running in headless mode.
+1575878995770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1575878995770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1575878995770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1575878995770	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1575878998658	Marionette	INFO	Listening on port 40167
+1575878998692	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript error: https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/XpFFWCF_B8_.js?_nc_x=Ij3Wp8lg5Kz, line 417: Error: The manifest specifies content that cannot be displayed on this browser/platform.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/uxHAUqSYr0x.js?_nc_x=Ij3Wp8lg5Kz, line 21: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: Failed to init decoder

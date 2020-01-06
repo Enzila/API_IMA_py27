@@ -5,6 +5,7 @@ from elasticsearch import Elasticsearch
 from configparser import ConfigParser
 from datetime import datetime
 from dateutil import tz
+from calendar import monthrange
 
 __author__ = "Kenzila"
 
@@ -17,6 +18,60 @@ parser.read("config.conf")
 from_zone = tz.tzutc()
 to_zone = tz.tzlocal()
 
+def getdetails(query):
+    details = query['aggregations']['type']['buckets']
+    detailsdict = {}
+    for a in range(details.__len__()):
+        key = details[a]['key']
+        if details[a]['key'] == 'null':
+            key = 'comment'
+        val = details[a]['doc_count']
+        detailsdict[key] = val
+    return detailsdict
+
+# def queryelastic(es,index,id,gte,lte,querystring=False,aggregation=False):
+#     if querystring is True:
+#         query = es.search(index=index, body={
+#             "query":
+#                 {
+#                     "bool":
+#                         {
+#                             "must":
+#                                 [
+#                                     {
+#                                         "query_string": {
+#                                             "query": "retweeted_user_screen_name:\"{0}\" OR mention : \"{0}\" OR in_quote_to_screen_name:\"{0}\"".format(
+#                                                 id),
+#                                             "analyze_wildcard": "true",
+#                                             "default_field": "*"
+#                                         }
+#                                     },
+#                                     {
+#                                         "range": {
+#                                             "created_at": {
+#                                                 "gte": "{} 00:00:00".format(gte),
+#                                                 "lte": "{} 23:59:59".format(lte),
+#                                                 "format": "yyyy-MM-dd HH:mm:ss",
+#                                                 "time_zone": "+07:00"
+#                                             }
+#                                         }
+#                                     }
+#                                 ]
+#                         }
+#                 },
+#             "aggs": {
+#                 "type": {
+#                     "terms": {
+#                         "field": "type.keyword",
+#                     }
+#                 }
+#             },
+#             "size": 0
+#         })
+
+
+def getdays(tahun, bulan):
+    return monthrange(tahun, bulan)[1]
 
 @app.route('/ipd/onlinenews')
 def ipd_onlinenews():
@@ -637,7 +692,8 @@ def ipd_twitter():
                     },
                 "size": 0
             })
-            postretweet = es.search(index='ipd-criteria-twitter-post-*', body={
+            postretweet = es.search(index='ipd-criteria-twitter-post-*', body=
+            {
                 "query":
                     {
                         "bool":
@@ -856,7 +912,7 @@ def isa_onlinenews():
                             "must": [
                                 {
                                     "match": {
-                                        "source": "{}".format(str(media_name).lower())
+                                        "source.keyword": "{}".format(str(media_name).lower())
                                         }
                                 },
                                 {
@@ -884,7 +940,7 @@ def isa_onlinenews():
                             "must": [
                                 {
                                     "match": {
-                                        "source": "{}".format(str(media_name).lower())
+                                        "source.keyword": "{}".format(str(media_name).lower())
                                     }
                                 },
                                 {
@@ -977,7 +1033,74 @@ def isa_facebook():
         jsons = {"source": source, "last_update": last_update, "last_data_stream": last_data_stream}
         if 'date' in request.args:
             date    = request.args['date']
-            getpost = es.search(index='new-data-facebook-isa-*', body= {
+            spliter = str(date).split('-')
+            if spliter.__len__() == 2:
+                day = getdays(int(spliter[0]),int(spliter[1]))
+                getpost = es.search(index='new-data-facebook-isa-*', body={
+                    "sort": [
+                        {"created_at": {"order": "desc"}}
+                    ],
+                    "query": {
+                        "bool": {
+                            "must": [
+                                {
+                                    "match": {
+                                        "user_id": userid
+                                    }
+                                },
+                                {
+                                    "range": {
+                                        "timestamp": {
+                                            "gte": "{}-01 00:00:00".format(date),
+                                            "lte": "{0}-{1} 23:59:59".format(date,day),
+                                            "format": "yyyy-MM-dd HH:mm:ss",
+                                            "time_zone": "+07:00"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "aggs": {
+                        "type": {
+                            "terms": {
+                                "field": "type.keyword"
+                            }
+                        }
+                    },
+                    "size": 0
+                })
+                getcomment = es.search(index='new-data-facebook-isa-*', body={
+                    "sort": [
+                        {"created_at": {"order": "desc"}}
+                    ],
+                    "query": {
+                        "bool": {
+                            "must": [
+                                {
+                                    "query_string": {
+                                        "query": "page_id:\"{}\" AND status:\"comment\"".format(userid),
+                                        "analyze_wildcard": "true",
+                                        "default_field": "*"
+                                    }
+                                },
+                                {
+                                    "range": {
+                                        "timestamp": {
+                                            "gte": "{}-01 00:00:00".format(date),
+                                            "lte": "{0}-{1} 23:59:59".format(date,day),
+                                            "format": "yyyy-MM-dd HH:mm:ss",
+                                            "time_zone": "+07:00"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "size": 0
+                })
+            elif spliter.__len__() == 3:
+                getpost = es.search(index='new-data-facebook-isa-*', body= {
                 "sort": [
                     {"created_at": {"order": "desc"}}
                 ],
@@ -990,13 +1113,8 @@ def isa_facebook():
                                 }
                             },
                             {
-                                "match": {
-                                    "status": "post"
-                                }
-                            },
-                            {
                                 "range": {
-                                    "created_at": {
+                                    "timestamp": {
                                         "gte": "{} 00:00:00".format(date),
                                         "lte": "{} 23:59:59".format(date),
                                         "format": "yyyy-MM-dd HH:mm:ss",
@@ -1007,9 +1125,16 @@ def isa_facebook():
                         ]
                     }
                 },
+                "aggs": {
+                    "type": {
+                        "terms": {
+                            "field": "type.keyword"
+                        }
+                    }
+                },
                 "size": 0
             })
-            getcomment = es.search(index='new-data-facebook-isa-*', body={
+                getcomment = es.search(index='new-data-facebook-isa-*', body={
                 "sort": [
                     {"created_at": {"order": "desc"}}
                 ],
@@ -1017,18 +1142,15 @@ def isa_facebook():
                     "bool": {
                         "must": [
                             {
-                                "match": {
-                                    "user_id": userid
-                                }
-                            },
-                            {
-                                "match": {
-                                    "status": "comment"
+                                "query_string": {
+                                    "query": "page_id:\"{}\" AND status:\"comment\"".format(userid),
+                                    "analyze_wildcard": "true",
+                                    "default_field": "*"
                                 }
                             },
                             {
                                 "range": {
-                                    "created_at": {
+                                    "timestamp": {
                                         "gte": "{} 00:00:00".format(date),
                                         "lte": "{} 23:59:59".format(date),
                                         "format": "yyyy-MM-dd HH:mm:ss",
@@ -1041,50 +1163,545 @@ def isa_facebook():
                 },
                 "size": 0
             })
-            gettotal    = es.search(index='new-data-facebook-isa-*', body={
-                "sort": [
-                    {"created_at": {"order": "desc"}}
-                ],
-                "query": {
-                    "bool": {
-                        "must": [
-                            {
-                                "match": {
-                                    "user_id": userid
-                                }
-                            },
-                            {
-                                "range": {
-                                    "created_at": {
-                                        "gte": "{} 00:00:00".format(date),
-                                        "lte": "{} 23:59:59".format(date),
-                                        "format": "yyyy-MM-dd HH:mm:ss",
-                                        "time_zone": "+07:00"
-                                    }
-                                }
-                            }
-                        ]
-                    }
-                },
-                "size": 0
-            })
-
-            total   = gettotal['hits']['total']
+            else:
+                getcomment = False
+                getpost = False
             totalcom    = getcomment['hits']['total']
             totalpost  = getpost['hits']['total']
-
-            jsons['post'] = {'total_post' : total}
-            jsons['post']['details'] = {
-                'post'  : totalpost,
-                'comment'   : totalcom
-            }
-
+            postdetails = getdetails(getpost)
+            jsons['Data'] = {'post_total' : totalpost, 'comment' : totalcom}
+            if 'details' in request.args: jsons['Data']['post_details'] = postdetails
         result = json.dumps(jsons)
         return result
     else:
         return 'No parameter'
 
-# @app.route('/isa/facebook')
+@app.route('/isa/twitter')
+def isa_twitter():
+    ip  = parser.get('elastic', 'isa')
+    es  = Elasticsearch(ip, port=5245)
+    if 'username' in request.args:
+        username    = request.args['username']
+        query   = es.search(index='new-data-twitter-isa-*',body= {
+            "sort":
+                [
+                    {"created_at": {"order": "desc"}}
+                ],
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "match": {
+                                "username": "{}".format(username)
+                            }
+                        }
+                    ]
+                }
+            },
+            "size": 1
+        })
+        if query['hits']['total'] == 0 :
+            last_update = bool(False)
+            source = username
+            last_data_stream = bool(False)
+        else:
+            _source = query['hits']['hits'][0]['_source']
+            last    = _source['created_at']
+            lasted = re.sub('\+[^\s]+', '', last)
+            source = _source['username']
+            last_data_stream = query['hits']['hits'][0]['_id']
+            utc_to_local = datetime.strptime(lasted, '%a %b %d %H:%M:%S %Y')
+            utc_to_local    = utc_to_local.replace(tzinfo=from_zone)
+            last_update = str(utc_to_local.astimezone(to_zone))
+        jsons = {"source" : source, "last_update": last_update, "last_data_stream" : last_data_stream}
+        if 'date' in request.args:
+            date    = request.args['date']
+            spliter = str(date).split('-')
+            if spliter.__len__() == 2:
+                day = getdays(int(spliter[0]),int(spliter[1]))
+                posttweet = es.search(index='new-data-twitter-isa-*', body={
+                    "query":
+                        {
+                            "bool":
+                                {
+                                    "must":
+                                        [
+                                            {
+                                                "match": {
+                                                    "username": "{}".format(username)
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "timestamp": {
+                                                        "gte": "{}-01 00:00:00".format(date),
+                                                        "lte": "{0}-{1} 23:59:59".format(date,day),
+                                                        "format": "yyyy-MM-dd HH:mm:ss",
+                                                        "time_zone": "+07:00"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                }
+                        },
+                    "aggs": {
+                        "type": {
+                            "terms": {
+                                "field": "type.keyword"
+                            }
+                        }
+                    },
+                    "size": 0
+                })
+                postretweet = es.search(index='new-data-twitter-isa-*', body={
+                    "query":
+                        {
+                            "bool":
+                                {
+                                    "must":
+                                        [
+                                            {
+                                                "query_string": {
+                                                    "query": "retweeted_user_screen_name:\"{0}\" OR mention : \"{0}\" OR in_quote_to_screen_name:\"{0}\"".format(
+                                                        username),
+                                                    "analyze_wildcard": "true",
+                                                    "default_field": "*"
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "timestamp": {
+                                                        "gte": "{}-01 00:00:00".format(date),
+                                                        "lte": "{0}-{1} 23:59:59".format(date,day),
+                                                        "format": "yyyy-MM-dd HH:mm:ss",
+                                                        "time_zone": "+07:00"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                }
+                        },
+                    "aggs": {
+                        "type": {
+                            "terms": {
+                                "field": "type.keyword",
+                                "size": 4
+                            }
+                        }
+                    },
+                    "size": 0
+                })
+                totaltweet = posttweet['hits']['total']
+                totalretweet = postretweet['hits']['total']
+                tweetdetails = getdetails(posttweet)
+                retweetdetails = getdetails(postretweet)
+            elif spliter.__len__() == 3:
+                posttweet   = es.search(index='new-data-twitter-isa-*', body = {
+                "query":
+                    {
+                        "bool":
+                            {
+                                "must":
+                                    [
+                                        {
+                                            "match": {
+                                                "username": "{}".format(username)
+                                            }
+                                        },
+                                        {
+                                            "range": {
+                                                "timestamp": {
+                                                    "gte": "{} 00:00:00".format(date),
+                                                    "lte": "{} 23:59:59".format(date),
+                                                    "format": "yyyy-MM-dd HH:mm:ss",
+                                                    "time_zone": "+07:00"
+                                                }
+                                            }
+                                        }
+                                    ]
+                            }
+                    },
+                "aggs": {
+                    "type": {
+                        "terms": {
+                            "field": "type.keyword"
+                        }
+                    }
+                },
+                "size": 0
+            })
+                postretweet = es.search(index='new-data-twitter-isa-*', body = {
+                    "query":
+                        {
+                            "bool":
+                                {
+                                    "must":
+                                        [
+                                            {
+                                                "query_string": {
+                                                    "query": "retweeted_user_screen_name:\"{0}\" OR mention : \"{0}\" OR in_quote_to_screen_name:\"{0}\"".format(username),
+                                                    "analyze_wildcard": "true",
+                                                    "default_field": "*"
+                                                }
+                                            },
+                                            {
+                                                "range": {
+                                                    "timestamp": {
+                                                        "gte": "{} 00:00:00".format(date),
+                                                        "lte": "{} 23:59:59".format(date),
+                                                        "format": "yyyy-MM-dd HH:mm:ss",
+                                                        "time_zone": "+07:00"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                }
+                        },
+                    "aggs": {
+                        "type": {
+                            "terms": {
+                                "field": "type.keyword",
+                                "size": 4
+                            }
+                        }
+                    },
+                    "size": 0
+                })
+                totaltweet  = posttweet['hits']['total']
+                totalretweet  = postretweet['hits']['total']
+                tweetdetails = getdetails(posttweet)
+                retweetdetails = getdetails(postretweet)
+            else:
+                totaltweet = False
+                tweetdetails = False
+                totalretweet = False
+                retweetdetails = False
+            jsons['Data'] = {}
+            jsons['Data']['Tweet'] = {'Total': totaltweet}
+            jsons['Data']['Retweet'] = {'Total': totalretweet}
+            if 'details' in request.args:
+                jsons['Data']['Tweet']['details'] = tweetdetails
+                jsons['Data']['Retweet']['details'] = retweetdetails
+        result = json.dumps(jsons)
+        return result
+    else:
+        return 'No parameter'
+
+@app.route('/ipd2/twitter')
+def ipd2_twitter():
+    ip  = parser.get('elastic', 'ipd2')
+    es  = Elasticsearch(ip, port=5200)
+    if 'username' in request.args:
+        username    = request.args['username']
+        query   = es.search(index='ipd-twitter-post-*',body= {
+            "sort":
+                [
+                    {"created_at": {"order": "desc"}}
+                ],
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "match": {
+                                "username": "{}".format(username)
+                            }
+                        }
+                    ]
+                }
+            },
+            "size": 1
+        })
+        if query['hits']['total'] == 0 :
+            last_update = bool(False)
+            source = username
+            last_data_stream = bool(False)
+        else:
+            _source = query['hits']['hits'][0]['_source']
+            last    = _source['created_at']
+            source = _source['username']
+            last_data_stream = query['hits']['hits'][0]['_id']
+            utc_to_local    = datetime.strptime(last, '%Y-%m-%d %H:%M:%S')
+            utc_to_local    = utc_to_local.replace(tzinfo=from_zone)
+            last_update = str(utc_to_local.astimezone(to_zone))
+        jsons = {"source" : source, "last_update": last_update, "last_data_stream" : last_data_stream}
+        if 'date' in request.args:
+            date    = request.args['date']
+            getpost = es.search(index='ipd-criteria-twitter-post-*', body={
+                "query":
+                    {
+                        "bool":
+                            {
+                                "must":
+                                    [
+                                        {
+                                            "match": {
+                                                "username": "{}".format(username)
+                                            }
+                                        },
+                                        {
+                                            "range": {
+                                                "created_at": {
+                                                    "gte": "{} 00:00:00".format(date),
+                                                    "lte": "{} 23:59:59".format(date),
+                                                    "format": "yyyy-MM-dd HH:mm:ss",
+                                                    "time_zone": "+07:00"
+                                                }
+                                            }
+                                        }
+                                    ]
+                            }
+                    },
+                "size": 0
+            })
+            posttweet   = es.search(index='ipd-criteria-twitter-post-*', body={
+                "query":
+                    {
+                        "bool":
+                            {
+                                "must":
+                                    [
+                                        {
+                                            "match": {
+                                                "username": "{}".format(username)
+                                            }
+                                        },
+                                        {
+                                            "match": {
+                                                "type" : "tweet"
+                                            }
+                                        },
+                                        {
+                                            "range": {
+                                                "created_at": {
+                                                    "gte": "{} 00:00:00".format(date),
+                                                    "lte": "{} 23:59:59".format(date),
+                                                    "format": "yyyy-MM-dd HH:mm:ss",
+                                                    "time_zone": "+07:00"
+                                                }
+                                            }
+                                        }
+                                    ]
+                            }
+                    },
+                "size": 0
+            })
+            postretweet = es.search(index='ipd-criteria-twitter-post-*', body= {
+                "query":
+                    {
+                        "bool":
+                            {
+                                "must":
+                                    [
+                                        {
+                                            "match": {
+                                                "username": "{}".format(username)
+                                            }
+                                        },
+                                        {
+                                            "match": {
+                                                "type": "retweet"
+                                            }
+                                        },
+                                        {
+                                            "range": {
+                                                "created_at": {
+                                                    "gte": "{} 00:00:00".format(date),
+                                                    "lte": "{} 23:59:59".format(date),
+                                                    "format": "yyyy-MM-dd HH:mm:ss",
+                                                    "time_zone": "+07:00"
+                                                }
+                                            }
+                                        }
+                                    ]
+                            }
+                    },
+                "size": 0
+            })
+            postreply   = es.search(index='ipd-criteria-twitter-post-*', body={
+                "query":
+                    {
+                        "bool":
+                            {
+                                "must":
+                                    [
+                                        {
+                                            "match": {
+                                                "username": "{}".format(username)
+                                            }
+                                        },
+                                        {
+                                            "match": {
+                                                "type": "reply"
+                                            }
+                                        },
+                                        {
+                                            "range": {
+                                                "created_at": {
+                                                    "gte": "{} 00:00:00".format(date),
+                                                    "lte": "{} 23:59:59".format(date),
+                                                    "format": "yyyy-MM-dd HH:mm:ss",
+                                                    "time_zone": "+07:00"
+                                                }
+                                            }
+                                        }
+                                    ]
+                            }
+                    },
+                "size": 0
+            })
+            postquoted = es.search(index='ipd-criteria-twitter-post-*', body={
+                "query":
+                    {
+                        "bool":
+                            {
+                                "must":
+                                    [
+                                        {
+                                            "match": {
+                                                "username": "{}".format(username)
+                                            }
+                                        },
+                                        {
+                                            "match": {
+                                                "type": "quoted"
+                                            }
+                                        },
+                                        {
+                                            "range": {
+                                                "created_at": {
+                                                    "gte": "{} 00:00:00".format(date),
+                                                    "lte": "{} 23:59:59".format(date),
+                                                    "format": "yyyy-MM-dd HH:mm:ss",
+                                                    "time_zone": "+07:00"
+                                                }
+                                            }
+                                        }
+                                    ]
+                            }
+                    },
+                "size": 0
+            })
+
+            totalpost   = getpost['hits']['total']
+            totaltweet  = posttweet['hits']['total']
+            totalretweet  = postretweet['hits']['total']
+            totalreply = postreply['hits']['total']
+            totalquoted = postquoted['hits']['total']
+
+            jsons['post'] = {'total_post' : totalpost}
+            jsons['post']['details'] = {
+                "tweet" : totaltweet,
+                "retweet": totalretweet,
+                "reply": totalreply,
+                "quoted": totalquoted
+            }
+        if 'monthly' in request.args:
+            month = request.args['monthly']
+            num = str(month).split('-')
+            days = getdays(int(num[0]),int(num[1]))
+            getdetails = es.search(index='ipd-twitter-post-*', body={
+  "query":{
+    "bool":{
+      "must":[
+        {
+          "match": {
+            "username": "{}".format(username)
+
+          }
+
+        },
+        {
+          "range": {
+            "created_at": {
+              "gte": "{0}-{1}-01 00:00:00".format(int(num[0]),int(num[1])),
+              "lte": "{0}-{1}-{2} 23:59:59".format(int(num[0]),int(num[1]),days),
+              "format": "yyyy-MM-dd HH:mm:ss",
+              "time_zone": "+07:00"
+
+            }
+
+          }
+
+        }]
+
+    }
+
+  },
+  "aggs": {
+    "type": {
+      "terms": {
+        "field": "type",
+        "size": 4
+      }
+    }
+  },
+  "size": 0
+})
+            totalpost = getdetails['hits']['total']
+            details = getdetails['aggregations']['type']['buckets']
+            jsons['post'] = {'total_post': totalpost}
+            detailsdict = {}
+            for a in range(details.__len__()):
+                key = details[a]['key']
+                val = details[a]['doc_count']
+                detailsdict[key] = val
+            jsons['post']['details'] = detailsdict
+        result = json.dumps(jsons)
+        return result
+    else:
+        return 'No parameter'
+
+@app.route('/isa/onlinenews/news_req')
+def isa_onlinenews_news_req():
+    ip  = parser.get('elastic','isa')
+    es  = Elasticsearch(ip, port=5245)
+    if 'news_id' in request.args:
+        news_id = request.args['news_id']
+        query = es.search(index='online-news-isa-*', body={
+                "sort": [
+                    {
+                        "created_at": {
+                            "order": "desc"
+                        }
+                    }
+                ],
+                "query": {
+                    "bool": {
+                        "must": [
+                            {
+                                "match": {
+                                    "id": news_id
+                                }
+                            }
+                        ]
+                    }
+                },
+                "size": 1
+        })
+        if query['hits']['total'] != 0:
+            _source = query['hits']['hits'][0]['_source']
+            source = _source['source']
+            link = _source['link']
+            title = _source['title']
+            last = _source['created_at']
+            utc_to_local = datetime.strptime(last, '%Y-%m-%d %H:%M:%S')
+            utc_to_local = utc_to_local.replace(tzinfo=from_zone)
+            last_update = str(utc_to_local.astimezone(to_zone))
+            image = _source['images'][0]
+            content = _source['content']
+        else:
+            last_update = bool(False)
+            link = bool(False)
+            title = bool(False)
+            source = news_id
+            image = bool(False)
+            content = bool(False)
+        jsons = {"source": source, "post" : {'news_id':news_id,"title": title,"pubdate": last_update, "link": link,'content':content,'image' : image }}
+        result = json.dumps(jsons)
+        return result
+    else:
+        return 'No parameters'
+
 
 if __name__ == '__main__':
     # app.run(host='192.168.20.92',port=5002)

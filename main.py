@@ -6,6 +6,7 @@ from configparser import ConfigParser
 from datetime import datetime
 from dateutil import tz
 from calendar import monthrange
+from main_isa import isa
 
 __author__ = "Kenzila"
 
@@ -832,6 +833,7 @@ def akun_twitter():
                          'name' : a['name'],
                          'add_date' : str(date)})
     jsons['list'] = da_list
+    print da_list.__len__()
     result = json.dumps(jsons)
     return result
 
@@ -857,6 +859,7 @@ def akun_facebook():
                         'name'  : a['name'],
                         'add_date'  : str(date)})
     jsons['list'] = da_list
+    print da_list.__len__()
     result = json.dumps(jsons)
     return result
 
@@ -1701,6 +1704,10 @@ def isa_onlinenews_news_req():
         return result
     else:
         return 'No parameters'
+
+@app.route('/testing')
+def isa_testing():
+    return isa().isa_twitter()
 
 
 if __name__ == '__main__':

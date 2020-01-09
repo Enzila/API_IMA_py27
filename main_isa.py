@@ -224,41 +224,134 @@ class isa:
         else:
             return 'No parameter'
 
-    def isa_onlinenews_test(self):
-        ip  = self.parser.get('elastic','isa')
-        es  = Elasticsearch(ip, port=5245)
+    def isa_onlinenews(self):
+        ip = self.parser.get('elastic', 'isa')
+        es = Elasticsearch(ip, port=5245)
         if 'media' in request.args:
-            media_name  = request.args['media']
-            query   = es.search(index='online-news-isa-*',body = {
-            "sort": [
-                {"created_at": {"order": "desc"}}
-            ],
-            "query": {
-                "bool": {
-                    "must": [
-                        {
-                            "match": {
-                                "source": "bengawan+pos"
+            media_name = request.args['media']
+            query = es.search(index='online-news-isa-*', body=
+            {
+                "sort": [
+                    {"created_at": {"order": "desc"}}
+                ],
+                "query": {
+                    "bool": {
+                        "must": [
+                            {
+                                "match": {
+                                    "source.keyword": media_name
+                                }
                             }
-                        }
-                    ]
-                }
-            },
-            "size": 1
-        })
-        # print query
+                        ]
+                    }
+                },
+                "size": 1
+            })
             if query['hits']['total'] == 0:
-                last_update = "null"
-                link    = "null"
-                source  = media_name
+                last_update = bool(False)
+                link = bool(False)
+                title = bool(False)
+                source = media_name
             else:
                 _source = query['hits']['hits'][0]['_source']
-                last_update = _source['created_at']
-                source  = _source['source']
-                link    = _source['link']
+                source = _source['source']
+                link = _source['link']
+                title = _source['title']
+                last = _source['created_at']
+                utc_to_local = datetime.strptime(last, '%Y-%m-%d %H:%M:%S')
+                utc_to_local = utc_to_local.replace(tzinfo=self.from_zone)
+                last_update = str(utc_to_local.astimezone(self.to_zone))
+            jsons = {"source": source, "last_update": last_update, "last_data_stream": {"title": title, "link": link}}
+            if 'date' in request.args:
+                date = request.args['date']
+                if 'offset' in request.args:
+                    offset = request.args['offset']
+                    post = es.search(index='online-news-isa-*', body={
+                        "sort": [
+                            {"created_at": {"order": "desc"}}
+                        ],
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "match": {
+                                            "source.keyword": "{}".format(str(media_name).lower())
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "created_at": {
+                                                "gte": "{} 00:00:00".format(date),
+                                                "lte": "{} 23:59:59".format(date),
+                                                "format": "yyyy-MM-dd HH:mm:ss",
+                                                "time_zone": "+07:00"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "from": offset, "size": 20
+                    })
+                else:
+                    post = es.search(index='online-news-isa-*', body={
+                        "sort": [
+                            {"created_at": {"order": "desc"}}
+                        ],
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "match": {
+                                            "source.keyword": "{}".format(str(media_name).lower())
+                                        }
+                                    },
+                                    {
+                                        "range": {
+                                            "created_at": {
+                                                "gte": "{} 00:00:00".format(date),
+                                                "lte": "{} 23:59:59".format(date),
+                                                "format": "yyyy-MM-dd HH:mm:ss",
+                                                "time_zone": "+07:00"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "from": 0, "size": 20
+                    })
+                    offset = bool(False)
+                total_post = post['hits']['total']
+                jsons['post'] = {'start_offset': int(offset), 'total_post': total_post, 'date': date}
+                if int(total_post) < 20:
+                    loop = total_post
+                else:
+                    loop = 20
+                postingan = []
+                for a in range(loop):
+                    _source = post['hits']['hits'][a]['_source']
+                    news_id = _source['id']
+                    pub = _source['created_at']
+                    utc_to_local_post = datetime.strptime(pub, '%Y-%m-%d %H:%M:%S')
+                    utc_to_local_post = utc_to_local_post.replace(tzinfo=self.from_zone)
+                    pubdate = str(utc_to_local_post.astimezone(self.to_zone))
+                    title = _source['title']
+                    url = _source['link']
+                    image = _source['images'][0]
+                    content = _source['content']
 
-            jsons   = {"source":source,"last_update":last_update, "last_data_stream" : link}
-            result  = json.dumps(jsons)
+                    postingan.append({
+                        'content': content,
+                        'news_id': news_id,
+                        'pubdate': pubdate,
+                        'title': title,
+                        'link': url,
+                        'image': image
+                    })
+                jsons['post']['post'] = postingan
+
+            result = json.dumps(jsons)
             return result
         else:
             return 'No parameters'
